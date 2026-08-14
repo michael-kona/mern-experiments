@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page</title>
+</head>
+<body>
+    <% if(session.uname!=null){%>
+        Hello <%=session.uname%> Welcome to Second Page of the website.
+        <br> <a href="/first">Go to First Page</a>
+        <br><a href="/logout">Logout</a>
+    <%}
+    else{
+        %>
+        <h2><a href="/">LOGIN PLEASE</a></h2>
+        <%
+    }
+    %>
+</body>
+</html>
