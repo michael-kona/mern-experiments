@@ -1,0 +1,16 @@
+.card1
+{
+  border: 1px solid black;
+  padding: 1px;
+  margin: 20px;
+  background-color: chocolate;
+  color: blue;
+}
+.card2
+{
+  border: 1px solid black;
+  padding: 1px;
+  margin: 20px;
+  background-color: green;
+  color: brown;
+}
